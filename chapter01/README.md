@@ -13,7 +13,7 @@
 윽 예상외로 많습니다. 그리고 처음보는 용어도 많습니다. 이것들이 다 무엇일까요?
 
 ## 2.1 Box Model
-Box Model이란 HTML에 하나의 Element를 사각형 박스로 영역을 정하고 그리는 모델을 뜻합니다.
+Box Model이란 HTML에 하나의 Element를 사각형 박스로 영역을 정하고 그리는 모델을 뜻합니다. 가장 쉽게 볼수 있는 방법은 크롬에서 F12를 눌러서 개발자 도구를 연후 우측 최하단에 표시가 됩니다.
  
-
+![boxModel](https://github.com/agatespider/SHCDB/blob/master/chapter01/docimg/boxmodel.PNG)
 
