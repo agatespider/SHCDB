@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	/** 윈도우는 맑은 고딕, OS X는 애플 산돌, 이런폰트 없으면 sans-serif로 폰트를 설정합니다. **/
+	font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+}
+
+/** 클리어 픽스 **/
+.boxA:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box3 {
+    float: left;
+    width: 75%
+}
+
+.box4 {
+    float: left;
+    width: 25%
+}

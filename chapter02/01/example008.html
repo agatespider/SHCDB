@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="grid-guide.css">
+    <style>
+        .boxA:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        /* 이렇게 각각을 지정할 수 있지만 동일한 스타일이면 모아서 할수도 있다.
+        .box1 {float: left; width: 50%;}
+        .box2 {float: left; width: 50%;}
+        .box3 {float: left; width: 50%;}
+        .box4 {float: left; width: 50%;}
+        */
+
+        .box1, .box2, .box3, .box4 {float: left; width: 50%;}
+
+    </style>
+</head>
+<body>
+    <div class="boxA">
+        <div class="box1">
+            BOX1
+        </div>
+        <div class="box2">
+            BOX2
+        </div>
+    </div>
+    <div class="boxA">
+        <div class="box3">
+            BOX3
+        </div>
+
+        <div class="box4">
+            BOX4
+        </div>
+    </div>
+
+</body>
+</html>

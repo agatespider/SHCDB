@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Chos Music</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="grid-guide.css">
+    <style>
+        body {
+            /** 윈도우는 맑은 고딕, OS X는 애플 산돌, 이런폰트 없으면 sans-serif로 폰트를 설정합니다. **/
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+
+        /** 클리어 픽스 **/
+        .boxA:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        /** 최소 768 이상일 경우 **/
+        @media (min-width: 768px) {
+            .box3 {
+                float: left;
+                width: 75%
+            }
+
+            .box4 {
+                float: left;
+                width: 25%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        BOX1
+    </div>
+
+    <div class="box2">
+        BOX2
+    </div>
+
+    <div class="boxA">
+        <div class="box3">
+            BOX3
+        </div>
+
+        <div class="box4">
+            BOX4
+        </div>
+    </div>
+
+    <div class="box5">
+        BOX5
+    </div>
+</body>
+</html>

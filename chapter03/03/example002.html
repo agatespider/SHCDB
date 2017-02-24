@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Chos Music</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="grid-guide.css">
+    <style>
+        body {
+            /** 윈도우는 맑은 고딕, OS X는 애플 산돌, 이런폰트 없으면 sans-serif로 폰트를 설정합니다. **/
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+
+        /** 클리어 픽스 **/
+        .boxA:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .site h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        .site h1 a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .menu ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        .menu ul li {
+            float: left;
+            width: auto;
+        }
+        .menu ul li:hover {
+            background-color: #eeeeee;
+        }
+
+        .menu ul li a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 5px;
+        }
+
+
+        .box2:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        /** 최소 768 이상일 경우 **/
+        @media (min-width: 768px) {
+            .box3 {
+                float: left;
+                width: 75%
+            }
+
+            .box4 {
+                float: left;
+                width: 25%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="site">
+            <h1>
+                <a href="#">TimeSwitch</a>
+            </h1>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="menu">
+            <ul>
+                <li><a href="#">메인</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">추천음악</a></li>
+                <li><a href="#">가요</a></li>
+                <li><a href="#">팝송</a></li>
+                <li><a href="#">문의</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="boxA">
+        <div class="box3">
+            BOX3
+        </div>
+
+        <div class="box4">
+            BOX4
+        </div>
+    </div>
+
+    <div class="box5">
+        BOX5
+    </div>
+</body>
+</html>

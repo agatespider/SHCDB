@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Chos Music</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="grid-guide.css">
+    <style>
+        body {
+            /** 윈도우는 맑은 고딕, OS X는 애플 산돌, 이런폰트 없으면 sans-serif로 폰트를 설정합니다. **/
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+
+        /** 클리어 픽스 **/
+        .boxA:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .site h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        .site h1 a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .menu ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        .menu ul li {
+            float: left;
+            width: auto;
+        }
+        .menu ul li:hover {
+            background-color: #eeeeee;
+        }
+
+        .menu ul li a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 5px;
+        }
+
+
+        .box2:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .story h1 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+
+        .story p {
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        .sidemenu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidemenu ul li {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .sidemenu ul li:hover {
+            background-color: #eeeeee;
+        }
+
+        .sidemenu ul li a {
+            text-decoration: none;
+            color: #000000;
+            width: auto;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        /** 최소 768 이상일 경우 **/
+        @media (min-width: 768px) {
+            .box3 {
+                float: left;
+                width: 75%
+            }
+
+            .box4 {
+                float: left;
+                width: 25%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="site">
+            <h1>
+                <a href="#">TimeSwitch</a>
+            </h1>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="menu">
+            <ul>
+                <li><a href="#">메인</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">추천음악</a></li>
+                <li><a href="#">가요</a></li>
+                <li><a href="#">팝송</a></li>
+                <li><a href="#">문의</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="boxA">
+        <div class="box3">
+            <article class="story">
+                <h1>
+                    좋은 음악을 멋지게 듣는 방법
+                </h1>
+                <p>요새 즐겨 듣는 팝송 그룹인 WestLife 그중에 No Place That Far노래를 참 좋아합니다. WestLife가 올드팝?이라고 해야하나요? 아무튼 좋습니다.</p>
+                <p>일반적으로 요새 나오는 노래보다 예전 2000년도 초기 노래들이 참 마음에 와닫습니다. 감성이라고 해야할까요? 영혼? 이번엔 웨스트 라이프 노래들을 추천합니다. 꼭 들어보시기 바랍니다.</p>
+                <p>여러 장르의 노래가 있고 각자가 좋아하는 종류들이 있습니다. 한번쯤은 내가 좋아하는 장르가 아닌 다른 장르를 찾아보는게 어떠신가요?</p>
+                <p>눈이 왔으면 합니다. 아직도 전 어릴적기억이 납니다. 눈싸움 하고 놀던때...</p>
+            </article>
+        </div>
+
+        <div class="box4">
+            <aside class="sidemenu">
+                <h1>특집 차트</h1>
+                <ul>
+                    <li><a href="#">금주의 BEST 5</a></li>
+                    <li><a href="#">당신의 즐겨찾기 노래들</a></li>
+                    <li><a href="#">당신의 친구들</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <div class="box5">
+        BOX5
+    </div>
+</body>
+</html>

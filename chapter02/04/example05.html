@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="grid-guide-rwd.css">
+    <style>
+        @media (min-width: 768px) {
+            .boxA:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .boxB {
+                float: left;
+                width: 80%;
+            }
+            .boxB:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .box2 {
+                float: left;
+                width: 80%;
+            }
+
+            .box3 {
+                float: left;
+                width: 20%;
+            }
+
+            .box4 {
+                float: left;
+                width: 20%
+            }
+        }
+
+        @media (max-width: 768px) {
+            .box2 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        BOX1
+    </div>
+    <div class="boxA">
+
+        <div class="boxB">
+            <div class="box3">
+                BOX3
+            </div>
+            <div class="box2">
+                BOX2
+            </div>
+        </div>
+
+        <div class="box4">
+            BOX4
+        </div>
+    </div>
+</body>
+</html>

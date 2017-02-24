@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="grid-guide.css">
+    <style>
+        .boxA {
+            border: solid 8px #00a0e9;
+            background-color: #a0e0fe;
+            color: #00a0e9
+        }
+
+        .boxA:after {
+            content: "텍스트 문서";
+            display: block;
+            clear: both;
+        }
+
+        .box2 {float:left;}
+        .box3 {float:left;}
+    </style>
+</head>
+<body>
+
+        <div class="box1">
+            BOX1
+        </div>
+
+        <div class="boxA">
+            <div class="box2">
+                BOX2
+            </div>
+            <div class="box3">
+                BOX3
+            </div>
+        </div>
+
+        <div class="box4">
+            BOX4
+        </div>
+</body>
+</html>
